@@ -1,0 +1,126 @@
+.list {
+    width: 272px;
+    background-color: var(--list-background);
+    border-radius: var(--border-radius);
+    margin-right: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 5rem);
+  }
+  
+  .listHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .titleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .titleEditContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .titleInput {
+    flex: 1;
+    margin-right: 0.5rem;
+  }
+  
+  .deleteButton {
+    background: none;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    padding: 0 0.3rem;
+  }
+  
+  .deleteButton:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+  
+  .cardContainer {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 0.5rem;
+  }
+  
+  .addCardButton {
+    background: none;
+    color: var(--placeholder-color);
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem;
+  }
+  
+  .addCardButton:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+    color: var(--text-color);
+  }
+  
+  .addCardContainer {
+    padding: 0.5rem;
+  }
+  
+  .cardInput {
+    margin-bottom: 0.5rem;
+  }
+  
+  .addCardActions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .addButton {
+    margin-right: 0.5rem;
+  }
+  
+  .cancelButton {
+    background: none;
+    color: var(--text-color);
+  }
+  
+  .cancelButton:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+  
+  .addListPlaceholder {
+    background-color: rgba(255, 255, 255, 0.24);
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+  }
+  
+  .addListPlaceholder:hover {
+    background-color: rgba(255, 255, 255, 0.32);
+  }
+  
+  .addList {
+    background-color: var(--list-background);
+    padding: 0.5rem;
+  }
+  
+  .addListActions {
+    display: flex;
+    margin-top: 0.5rem;
+  }
+  
+  .saveButton {
+    margin-right: 0.5rem;
+  }

@@ -1,0 +1,85 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background-color: white;
+    border-radius: var(--border-radius);
+    width: 100%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .titleInput {
+    font-size: 1.2rem;
+    font-weight: bold;
+    flex: 1;
+    margin-right: 1rem;
+  }
+  
+  .closeButton {
+    background: none;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  
+  .modalBody {
+    padding: 1rem;
+    flex: 1;
+  }
+  
+  .field {
+    margin-bottom: 1rem;
+  }
+  
+  .field label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: var(--placeholder-color);
+  }
+  
+  .descriptionInput {
+    width: 100%;
+    resize: vertical;
+  }
+  
+  .modalFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+  }
+  
+  .deleteButton {
+    background-color: var(--danger-color);
+  }
+  
+  .deleteButton:hover {
+    background-color: #cf513d;
+  }
+  
+  .saveButton {
+    background-color: var(--button-color);
+  }

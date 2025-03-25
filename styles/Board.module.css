@@ -1,0 +1,13 @@
+.boardContainer {
+    flex: 1;
+    overflow-x: auto;
+    padding: 1rem;
+    background-color: var(--background-color);
+  }
+  
+  .board {
+    display: flex;
+    align-items: flex-start;
+    min-height: calc(100vh - 3.5rem);
+    padding-bottom: 1rem;
+  }
